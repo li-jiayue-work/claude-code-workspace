@@ -30,10 +30,10 @@
   4. Brave Search MCP 需企业认证，DuckDuckGo MCP（`duckduckgo-mcp-server`）是免费免 API Key 的替代
   5. SQLite MCP 官方无维护包，社区替代 `@easy-mcps/sqlite-mcp-server` 可用
   6. `claude mcp add -s user <name> -- <command>` 是添加全局 MCP 的正确命令，`-s user` 不是 `--global`；`-e KEY=value` 必须放在 server name 之前
-  7. MCP CLI 配置实际存储在 `C:\Users\HP\.claude.json`，不是 `mcp.json`
+  7. MCP CLI 配置实际存储在 `~\.claude.json`，不是 `mcp.json`
   8. `@modelcontextprotocol/server-filesystem` 在 Windows 上无法连接（已知兼容性问题），但 Claude Code 内置的 Read/Write/Edit/Glob/Grep 工具已完全覆盖文件操作，filesystem MCP 非必需
 - **影响**：后续 MCP 选型优先验证官方包是否存在，找不到再选社区包；优先用 `claude mcp` CLI 管理配置而非手动编辑 JSON
-- **相关文件**：[C:\Users\HP\.claude.json](C:\Users\HP\.claude.json)
+- **相关文件**：`~\.claude.json`
 
 ### [2026-05-10] Windows 中文终端 GBK 编码问题
 

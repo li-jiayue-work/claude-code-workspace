@@ -34,7 +34,7 @@
 - **后果**：
   - 正面：零全局安装，3 个 MCP 连接成功（github / duckduckgo / sqlite），filesystem 因 Windows 兼容性失败但内置工具已覆盖
   - 注意：GitHub Token 明文存储于 claude.json，需确保文件不进入 git 仓库
-- **相关**：[C:\Users\HP\.claude.json](C:\Users\HP\.claude.json)
+- **相关**：`~\.claude.json`（用户级配置文件）
 
 ---
 
