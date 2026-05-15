@@ -30,7 +30,10 @@
 - [x] 建立 knowledge-base 知识库体系
 - [x] 集成 LobeHub Skills Marketplace（注册 + skill-vetter + pptx）
 - [x] 端到端 PPTX 创作验证：PDF→提取→规划→pptxgenjs 生成→QA→修复→再验证
-- [x] MCP 服务器配置：filesystem / github / duckduckgo / sqlite（用户级 mcp.json）
+- [x] MCP 服务器配置：filesystem / github / duckduckgo / sqlite / lark-mcp（用户级 + 项目级）
+- [x] OpenCLI 环境搭建：npm 全局安装 + Chrome 扩展 + 5 个 AI Agent Skills
+- [x] Claude Code 插件体系：3 个插件 + 2 个市场（commit-commands / security-guidance / content-creator）
+- [x] git 网络调优：schannel SSL 后端解决中国区 GitHub 连接问题
 - [ ] 完整走通一次 debug-workflow
 
 ## 技术起点

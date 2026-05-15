@@ -23,6 +23,11 @@
 
 | 日期 | 内容 |
 | --- | --- |
+| 2026-05-16 | 安装并配置 3 个 Claude Code 插件：commit-commands / security-guidance / content-creator |
+| 2026-05-16 | 新增 2 个 Claude Code 插件市场：ccplugins/awesome-claude-code-plugins + anthropics/claude-code |
+| 2026-05-16 | git SSL 后端切换为 schannel（Windows 原生），解决 GFW 阻断 GitHub 连接 |
+| 2026-05-15 | 安装 OpenCLI：CLI + Chrome 扩展 + 5 个 AI Agent Skills（对称安装了多种 IDE） |
+| 2026-05-15 | 配置 Lark MCP 服务器（project-level，含凭证） |
 | 2026-05-14 | 配置 MCP 服务器 4 个：filesystem / github / duckduckgo / sqlite（npx 零全局安装） |
 | 2026-05-11 | 首次 PDF→PPTX 完整创作流程：14 页学术论文演示文稿（pptxgenjs + QA + fix cycle） |
 | 2026-05-11 | 集成 LobeHub Skills Marketplace + 安装 skill-vetter（技能安全审计协议） |
