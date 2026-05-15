@@ -1,5 +1,7 @@
 memory/
 scratch/
+.claude/
+.agents/
 .env
 .env*
 *.env
