@@ -1,0 +1,1384 @@
+{
+  "nodes": [
+    {
+      "id": "阳萌",
+      "name": "阳萌",
+      "type": "自然人",
+      "stock_code": ""
+    },
+    {
+      "id": "安克创新",
+      "name": "安克创新",
+      "type": "上市公司",
+      "stock_code": "300866"
+    },
+    {
+      "id": "贺丽",
+      "name": "贺丽",
+      "type": "自然人",
+      "stock_code": ""
+    },
+    {
+      "id": "赵东平",
+      "name": "赵东平",
+      "type": "自然人",
+      "stock_code": ""
+    },
+    {
+      "id": "香港中央结算有限公司",
+      "name": "香港中央结算有限公司",
+      "type": "机构股东",
+      "stock_code": ""
+    },
+    {
+      "id": "吴文龙",
+      "name": "吴文龙",
+      "type": "自然人",
+      "stock_code": ""
+    },
+    {
+      "id": "全国社保基金一一四组合",
+      "name": "全国社保基金一一四组合",
+      "type": "机构股东",
+      "stock_code": ""
+    },
+    {
+      "id": "张山峰",
+      "name": "张山峰",
+      "type": "自然人",
+      "stock_code": ""
+    },
+    {
+      "id": "高韬",
+      "name": "高韬",
+      "type": "自然人",
+      "stock_code": ""
+    },
+    {
+      "id": "GATES FOUNDATION TRUST",
+      "name": "GATES FOUNDATION TRUST",
+      "type": "机构股东",
+      "stock_code": ""
+    },
+    {
+      "id": "易方达创业板ETF",
+      "name": "易方达创业板ETF",
+      "type": "机构股东",
+      "stock_code": ""
+    },
+    {
+      "id": "Anker Innovations Limited",
+      "name": "Anker Innovations Limited",
+      "type": "子公司",
+      "stock_code": ""
+    },
+    {
+      "id": "Anker Holding Limited",
+      "name": "Anker Holding Limited",
+      "type": "子公司",
+      "stock_code": ""
+    },
+    {
+      "id": "Fantasia Trading LLC",
+      "name": "Fantasia Trading LLC",
+      "type": "子公司",
+      "stock_code": ""
+    },
+    {
+      "id": "Power Mobile Life LLC",
+      "name": "Power Mobile Life LLC",
+      "type": "子公司",
+      "stock_code": ""
+    },
+    {
+      "id": "深圳海翼智新科技有限公司",
+      "name": "深圳海翼智新科技有限公司",
+      "type": "机构股东",
+      "stock_code": ""
+    },
+    {
+      "id": "Anker Japan Co., Ltd.",
+      "name": "Anker Japan Co., Ltd.",
+      "type": "子公司",
+      "stock_code": ""
+    },
+    {
+      "id": "Anker Technology (UK) Ltd.",
+      "name": "Anker Technology (UK) Ltd.",
+      "type": "子公司",
+      "stock_code": ""
+    },
+    {
+      "id": "Anker Innovations Deutschland GmbH",
+      "name": "Anker Innovations Deutschland GmbH",
+      "type": "子公司",
+      "stock_code": ""
+    },
+    {
+      "id": "Anker Innovations Australia Pty Ltd.",
+      "name": "Anker Innovations Australia Pty Ltd.",
+      "type": "子公司",
+      "stock_code": ""
+    },
+    {
+      "id": "湖南安克电子科技有限公司",
+      "name": "湖南安克电子科技有限公司",
+      "type": "机构股东",
+      "stock_code": ""
+    },
+    {
+      "id": "深圳市安克创新科技有限公司",
+      "name": "深圳市安克创新科技有限公司",
+      "type": "机构股东",
+      "stock_code": ""
+    },
+    {
+      "id": "宋川",
+      "name": "宋川",
+      "type": "自然人",
+      "stock_code": ""
+    },
+    {
+      "id": "致欧科技",
+      "name": "致欧科技",
+      "type": "上市公司",
+      "stock_code": "301376"
+    },
+    {
+      "id": "安克创新科技股份有限公司",
+      "name": "安克创新科技股份有限公司",
+      "type": "机构股东",
+      "stock_code": ""
+    },
+    {
+      "id": "共青城科赢投资合伙企业（有限合伙）",
+      "name": "共青城科赢投资合伙企业（有限合伙）",
+      "type": "机构股东",
+      "stock_code": ""
+    },
+    {
+      "id": "共青城沐桥投资合伙企业（有限合伙）",
+      "name": "共青城沐桥投资合伙企业（有限合伙）",
+      "type": "机构股东",
+      "stock_code": ""
+    },
+    {
+      "id": "郑州泽骞企业管理咨询中心（有限合伙）",
+      "name": "郑州泽骞企业管理咨询中心（有限合伙）",
+      "type": "机构股东",
+      "stock_code": ""
+    },
+    {
+      "id": "郑州语昂企业管理咨询中心（有限合伙）",
+      "name": "郑州语昂企业管理咨询中心（有限合伙）",
+      "type": "机构股东",
+      "stock_code": ""
+    },
+    {
+      "id": "王志伟",
+      "name": "王志伟",
+      "type": "自然人",
+      "stock_code": ""
+    },
+    {
+      "id": "田琳",
+      "name": "田琳",
+      "type": "自然人",
+      "stock_code": ""
+    },
+    {
+      "id": "珠海富邦凯瑞管理咨询企业（有限合伙）",
+      "name": "珠海富邦凯瑞管理咨询企业（有限合伙）",
+      "type": "机构股东",
+      "stock_code": ""
+    },
+    {
+      "id": "东莞致欧",
+      "name": "东莞致欧",
+      "type": "自然人",
+      "stock_code": ""
+    },
+    {
+      "id": "深圳致欧",
+      "name": "深圳致欧",
+      "type": "自然人",
+      "stock_code": ""
+    },
+    {
+      "id": "致欧国际（香港）",
+      "name": "致欧国际（香港）",
+      "type": "子公司",
+      "stock_code": ""
+    },
+    {
+      "id": "EUZIEL（德国）",
+      "name": "EUZIEL（德国）",
+      "type": "自然人",
+      "stock_code": ""
+    },
+    {
+      "id": "AMEZIEL（美国）",
+      "name": "AMEZIEL（美国）",
+      "type": "自然人",
+      "stock_code": ""
+    },
+    {
+      "id": "ZIELJP（日本）",
+      "name": "ZIELJP（日本）",
+      "type": "自然人",
+      "stock_code": ""
+    },
+    {
+      "id": "FURNOLIC（英国）",
+      "name": "FURNOLIC（英国）",
+      "type": "自然人",
+      "stock_code": ""
+    },
+    {
+      "id": "COWIT（墨西哥）",
+      "name": "COWIT（墨西哥）",
+      "type": "自然人",
+      "stock_code": ""
+    },
+    {
+      "id": "郑州领未",
+      "name": "郑州领未",
+      "type": "自然人",
+      "stock_code": ""
+    },
+    {
+      "id": "华凯易佰",
+      "name": "华凯易佰",
+      "type": "上市公司",
+      "stock_code": "300592"
+    },
+    {
+      "id": "无控股股东",
+      "name": "无控股股东",
+      "type": "子公司",
+      "stock_code": ""
+    },
+    {
+      "id": "无实际控制人",
+      "name": "无实际控制人",
+      "type": "子公司",
+      "stock_code": ""
+    },
+    {
+      "id": "胡范金系（胡范金+芒励多+罗春）",
+      "name": "胡范金系（胡范金+芒励多+罗春）",
+      "type": "子公司",
+      "stock_code": ""
+    },
+    {
+      "id": "周新华系（周新华+罗晔）",
+      "name": "周新华系（周新华+罗晔）",
+      "type": "子公司",
+      "stock_code": ""
+    },
+    {
+      "id": "庄俊超系（庄俊超+超然迈伦）",
+      "name": "庄俊超系（庄俊超+超然迈伦）",
+      "type": "子公司",
+      "stock_code": ""
+    },
+    {
+      "id": "易佰网络",
+      "name": "易佰网络",
+      "type": "自然人",
+      "stock_code": ""
+    },
+    {
+      "id": "陈文平",
+      "name": "陈文平",
+      "type": "自然人",
+      "stock_code": ""
+    },
+    {
+      "id": "赛维时代",
+      "name": "赛维时代",
+      "type": "上市公司",
+      "stock_code": "301381"
+    },
+    {
+      "id": "陈文辉",
+      "name": "陈文辉",
+      "type": "自然人",
+      "stock_code": ""
+    },
+    {
+      "id": "雄安君腾创业投资有限公司",
+      "name": "雄安君腾创业投资有限公司",
+      "type": "机构股东",
+      "stock_code": ""
+    },
+    {
+      "id": "张清森",
+      "name": "张清森",
+      "type": "自然人",
+      "stock_code": ""
+    },
+    {
+      "id": "绿联科技",
+      "name": "绿联科技",
+      "type": "上市公司",
+      "stock_code": "301606"
+    },
+    {
+      "id": "仇建平",
+      "name": "仇建平",
+      "type": "自然人",
+      "stock_code": ""
+    },
+    {
+      "id": "巨星科技",
+      "name": "巨星科技",
+      "type": "上市公司",
+      "stock_code": "002444"
+    },
+    {
+      "id": "巨星控股集团有限公司",
+      "name": "巨星控股集团有限公司",
+      "type": "机构股东",
+      "stock_code": ""
+    },
+    {
+      "id": "杭叉集团(603298)",
+      "name": "杭叉集团(603298)",
+      "type": "子公司",
+      "stock_code": ""
+    },
+    {
+      "id": "新柴股份(301032)",
+      "name": "新柴股份(301032)",
+      "type": "子公司",
+      "stock_code": ""
+    },
+    {
+      "id": "中策橡胶(603049)",
+      "name": "中策橡胶(603049)",
+      "type": "子公司",
+      "stock_code": ""
+    },
+    {
+      "id": "刘靖康",
+      "name": "刘靖康",
+      "type": "自然人",
+      "stock_code": ""
+    },
+    {
+      "id": "影石创新",
+      "name": "影石创新",
+      "type": "上市公司",
+      "stock_code": "688775"
+    },
+    {
+      "id": "项乐宏",
+      "name": "项乐宏",
+      "type": "自然人",
+      "stock_code": ""
+    },
+    {
+      "id": "乐歌股份",
+      "name": "乐歌股份",
+      "type": "上市公司",
+      "stock_code": "300729"
+    },
+    {
+      "id": "姜艺",
+      "name": "姜艺",
+      "type": "自然人",
+      "stock_code": ""
+    },
+    {
+      "id": "宁波丽晶电子集团有限公司",
+      "name": "宁波丽晶电子集团有限公司",
+      "type": "机构股东",
+      "stock_code": ""
+    },
+    {
+      "id": "ZHONGBINSUN",
+      "name": "ZHONGBINSUN",
+      "type": "自然人",
+      "stock_code": ""
+    },
+    {
+      "id": "三态股份",
+      "name": "三态股份",
+      "type": "上市公司",
+      "stock_code": "301558"
+    },
+    {
+      "id": "深圳市嘉禾晟鑫科技有限公司",
+      "name": "深圳市嘉禾晟鑫科技有限公司",
+      "type": "机构股东",
+      "stock_code": ""
+    },
+    {
+      "id": "谢晓华",
+      "name": "谢晓华",
+      "type": "自然人",
+      "stock_code": ""
+    },
+    {
+      "id": "星徽股份",
+      "name": "星徽股份",
+      "type": "上市公司",
+      "stock_code": "300464"
+    },
+    {
+      "id": "孙才金",
+      "name": "孙才金",
+      "type": "自然人",
+      "stock_code": ""
+    },
+    {
+      "id": "朱佳佳",
+      "name": "朱佳佳",
+      "type": "自然人",
+      "stock_code": ""
+    },
+    {
+      "id": "SUNVALLEY E-COMMERCE (HK) LIMITED",
+      "name": "SUNVALLEY E-COMMERCE (HK) LIMITED",
+      "type": "子公司",
+      "stock_code": ""
+    },
+    {
+      "id": "新余市顺择齐欣咨询服务中心（有限合伙）",
+      "name": "新余市顺择齐欣咨询服务中心（有限合伙）",
+      "type": "机构股东",
+      "stock_code": ""
+    },
+    {
+      "id": "王利平",
+      "name": "王利平",
+      "type": "自然人",
+      "stock_code": ""
+    },
+    {
+      "id": "广博股份",
+      "name": "广博股份",
+      "type": "上市公司",
+      "stock_code": "002103"
+    },
+    {
+      "id": "广博控股集团有限公司",
+      "name": "广博控股集团有限公司",
+      "type": "机构股东",
+      "stock_code": ""
+    },
+    {
+      "id": "王君平",
+      "name": "王君平",
+      "type": "自然人",
+      "stock_code": ""
+    },
+    {
+      "id": "宁波兆晖泰商贸有限公司",
+      "name": "宁波兆晖泰商贸有限公司",
+      "type": "机构股东",
+      "stock_code": ""
+    },
+    {
+      "id": "博迁新材(605376)",
+      "name": "博迁新材(605376)",
+      "type": "子公司",
+      "stock_code": ""
+    },
+    {
+      "id": "华丙如",
+      "name": "华丙如",
+      "type": "自然人",
+      "stock_code": ""
+    },
+    {
+      "id": "子不语",
+      "name": "子不语",
+      "type": "上市公司",
+      "stock_code": "02420"
+    }
+  ],
+  "links": [
+    {
+      "source": "阳萌",
+      "target": "安克创新",
+      "relation": "实际控制人",
+      "weight": "43.40%",
+      "verified": false,
+      "source_doc": "安克创新2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300866&announcementId=1225090973&orgId=gfbj0839473&announcementTime=2026-04-10",
+      "stock_code": "300866"
+    },
+    {
+      "source": "阳萌",
+      "target": "安克创新",
+      "relation": "控股股东",
+      "weight": "43.40%",
+      "verified": false,
+      "source_doc": "安克创新2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300866&announcementId=1225090973&orgId=gfbj0839473&announcementTime=2026-04-10",
+      "stock_code": "300866"
+    },
+    {
+      "source": "贺丽",
+      "target": "安克创新",
+      "relation": "一致行动人",
+      "weight": "3.64%",
+      "verified": false,
+      "source_doc": "安克创新2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300866&announcementId=1225090973&orgId=gfbj0839473&announcementTime=2026-04-10",
+      "stock_code": "300866"
+    },
+    {
+      "source": "阳萌",
+      "target": "安克创新",
+      "relation": "持股",
+      "weight": "43.40%",
+      "verified": false,
+      "source_doc": "安克创新2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300866&announcementId=1225090973&orgId=gfbj0839473&announcementTime=2026-04-10",
+      "stock_code": "300866"
+    },
+    {
+      "source": "赵东平",
+      "target": "安克创新",
+      "relation": "持股",
+      "weight": "11.81%",
+      "verified": false,
+      "source_doc": "安克创新2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300866&announcementId=1225090973&orgId=gfbj0839473&announcementTime=2026-04-10",
+      "stock_code": "300866"
+    },
+    {
+      "source": "香港中央结算有限公司",
+      "target": "安克创新",
+      "relation": "持股",
+      "weight": "6.84%",
+      "verified": false,
+      "source_doc": "安克创新2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300866&announcementId=1225090973&orgId=gfbj0839473&announcementTime=2026-04-10",
+      "stock_code": "300866"
+    },
+    {
+      "source": "吴文龙",
+      "target": "安克创新",
+      "relation": "持股",
+      "weight": "4.15%",
+      "verified": false,
+      "source_doc": "安克创新2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300866&announcementId=1225090973&orgId=gfbj0839473&announcementTime=2026-04-10",
+      "stock_code": "300866"
+    },
+    {
+      "source": "贺丽",
+      "target": "安克创新",
+      "relation": "持股",
+      "weight": "3.64%",
+      "verified": false,
+      "source_doc": "安克创新2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300866&announcementId=1225090973&orgId=gfbj0839473&announcementTime=2026-04-10",
+      "stock_code": "300866"
+    },
+    {
+      "source": "全国社保基金一一四组合",
+      "target": "安克创新",
+      "relation": "持股",
+      "weight": "2.05%",
+      "verified": false,
+      "source_doc": "安克创新2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300866&announcementId=1225090973&orgId=gfbj0839473&announcementTime=2026-04-10",
+      "stock_code": "300866"
+    },
+    {
+      "source": "张山峰",
+      "target": "安克创新",
+      "relation": "持股",
+      "weight": "1.27%",
+      "verified": false,
+      "source_doc": "安克创新2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300866&announcementId=1225090973&orgId=gfbj0839473&announcementTime=2026-04-10",
+      "stock_code": "300866"
+    },
+    {
+      "source": "高韬",
+      "target": "安克创新",
+      "relation": "持股",
+      "weight": "1.02%",
+      "verified": false,
+      "source_doc": "安克创新2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300866&announcementId=1225090973&orgId=gfbj0839473&announcementTime=2026-04-10",
+      "stock_code": "300866"
+    },
+    {
+      "source": "GATES FOUNDATION TRUST",
+      "target": "安克创新",
+      "relation": "持股",
+      "weight": "0.86%",
+      "verified": false,
+      "source_doc": "安克创新2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300866&announcementId=1225090973&orgId=gfbj0839473&announcementTime=2026-04-10",
+      "stock_code": "300866"
+    },
+    {
+      "source": "易方达创业板ETF",
+      "target": "安克创新",
+      "relation": "持股",
+      "weight": "0.77%",
+      "verified": false,
+      "source_doc": "安克创新2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300866&announcementId=1225090973&orgId=gfbj0839473&announcementTime=2026-04-10",
+      "stock_code": "300866"
+    },
+    {
+      "source": "安克创新",
+      "target": "Anker Innovations Limited",
+      "relation": "控股",
+      "weight": "100%",
+      "verified": false,
+      "source_doc": "安克创新2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300866&announcementId=1225090973&orgId=gfbj0839473&announcementTime=2026-04-10",
+      "stock_code": "300866"
+    },
+    {
+      "source": "安克创新",
+      "target": "Anker Holding Limited",
+      "relation": "控股",
+      "weight": "100%",
+      "verified": false,
+      "source_doc": "安克创新2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300866&announcementId=1225090973&orgId=gfbj0839473&announcementTime=2026-04-10",
+      "stock_code": "300866"
+    },
+    {
+      "source": "安克创新",
+      "target": "Fantasia Trading LLC",
+      "relation": "控股",
+      "weight": "100%",
+      "verified": false,
+      "source_doc": "安克创新2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300866&announcementId=1225090973&orgId=gfbj0839473&announcementTime=2026-04-10",
+      "stock_code": "300866"
+    },
+    {
+      "source": "安克创新",
+      "target": "Power Mobile Life LLC",
+      "relation": "控股",
+      "weight": "100%",
+      "verified": false,
+      "source_doc": "安克创新2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300866&announcementId=1225090973&orgId=gfbj0839473&announcementTime=2026-04-10",
+      "stock_code": "300866"
+    },
+    {
+      "source": "安克创新",
+      "target": "深圳海翼智新科技有限公司",
+      "relation": "控股",
+      "weight": "87.28%",
+      "verified": false,
+      "source_doc": "安克创新2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300866&announcementId=1225090973&orgId=gfbj0839473&announcementTime=2026-04-10",
+      "stock_code": "300866"
+    },
+    {
+      "source": "安克创新",
+      "target": "Anker Japan Co., Ltd.",
+      "relation": "控股",
+      "weight": "100%",
+      "verified": false,
+      "source_doc": "安克创新2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300866&announcementId=1225090973&orgId=gfbj0839473&announcementTime=2026-04-10",
+      "stock_code": "300866"
+    },
+    {
+      "source": "安克创新",
+      "target": "Anker Technology (UK) Ltd.",
+      "relation": "控股",
+      "weight": "100%",
+      "verified": false,
+      "source_doc": "安克创新2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300866&announcementId=1225090973&orgId=gfbj0839473&announcementTime=2026-04-10",
+      "stock_code": "300866"
+    },
+    {
+      "source": "安克创新",
+      "target": "Anker Innovations Deutschland GmbH",
+      "relation": "控股",
+      "weight": "100%",
+      "verified": false,
+      "source_doc": "安克创新2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300866&announcementId=1225090973&orgId=gfbj0839473&announcementTime=2026-04-10",
+      "stock_code": "300866"
+    },
+    {
+      "source": "安克创新",
+      "target": "Anker Innovations Australia Pty Ltd.",
+      "relation": "控股",
+      "weight": "100%",
+      "verified": false,
+      "source_doc": "安克创新2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300866&announcementId=1225090973&orgId=gfbj0839473&announcementTime=2026-04-10",
+      "stock_code": "300866"
+    },
+    {
+      "source": "安克创新",
+      "target": "湖南安克电子科技有限公司",
+      "relation": "控股",
+      "weight": "100%",
+      "verified": false,
+      "source_doc": "安克创新2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300866&announcementId=1225090973&orgId=gfbj0839473&announcementTime=2026-04-10",
+      "stock_code": "300866"
+    },
+    {
+      "source": "安克创新",
+      "target": "深圳市安克创新科技有限公司",
+      "relation": "控股",
+      "weight": "100%",
+      "verified": false,
+      "source_doc": "安克创新2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300866&announcementId=1225090973&orgId=gfbj0839473&announcementTime=2026-04-10",
+      "stock_code": "300866"
+    },
+    {
+      "source": "宋川",
+      "target": "致欧科技",
+      "relation": "实际控制人",
+      "weight": "50.01%",
+      "verified": false,
+      "source_doc": "致欧科技2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=301376&announcementId=1225281007&orgId=9900047632&announcementTime=2026-04-29",
+      "stock_code": "301376"
+    },
+    {
+      "source": "宋川",
+      "target": "致欧科技",
+      "relation": "控股股东",
+      "weight": "50.01%",
+      "verified": false,
+      "source_doc": "致欧科技2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=301376&announcementId=1225281007&orgId=9900047632&announcementTime=2026-04-29",
+      "stock_code": "301376"
+    },
+    {
+      "source": "宋川",
+      "target": "致欧科技",
+      "relation": "持股",
+      "weight": "50.01%",
+      "verified": false,
+      "source_doc": "致欧科技2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=301376&announcementId=1225281007&orgId=9900047632&announcementTime=2026-04-29",
+      "stock_code": "301376"
+    },
+    {
+      "source": "安克创新科技股份有限公司",
+      "target": "致欧科技",
+      "relation": "持股",
+      "weight": "8.22%",
+      "verified": false,
+      "source_doc": "致欧科技2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=301376&announcementId=1225281007&orgId=9900047632&announcementTime=2026-04-29",
+      "stock_code": "301376"
+    },
+    {
+      "source": "共青城科赢投资合伙企业（有限合伙）",
+      "target": "致欧科技",
+      "relation": "持股",
+      "weight": "3.28%",
+      "verified": false,
+      "source_doc": "致欧科技2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=301376&announcementId=1225281007&orgId=9900047632&announcementTime=2026-04-29",
+      "stock_code": "301376"
+    },
+    {
+      "source": "共青城沐桥投资合伙企业（有限合伙）",
+      "target": "致欧科技",
+      "relation": "持股",
+      "weight": "3.28%",
+      "verified": false,
+      "source_doc": "致欧科技2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=301376&announcementId=1225281007&orgId=9900047632&announcementTime=2026-04-29",
+      "stock_code": "301376"
+    },
+    {
+      "source": "郑州泽骞企业管理咨询中心（有限合伙）",
+      "target": "致欧科技",
+      "relation": "持股",
+      "weight": "3.23%",
+      "verified": false,
+      "source_doc": "致欧科技2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=301376&announcementId=1225281007&orgId=9900047632&announcementTime=2026-04-29",
+      "stock_code": "301376"
+    },
+    {
+      "source": "郑州语昂企业管理咨询中心（有限合伙）",
+      "target": "致欧科技",
+      "relation": "持股",
+      "weight": "3.10%",
+      "verified": false,
+      "source_doc": "致欧科技2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=301376&announcementId=1225281007&orgId=9900047632&announcementTime=2026-04-29",
+      "stock_code": "301376"
+    },
+    {
+      "source": "王志伟",
+      "target": "致欧科技",
+      "relation": "持股",
+      "weight": "2.47%",
+      "verified": false,
+      "source_doc": "致欧科技2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=301376&announcementId=1225281007&orgId=9900047632&announcementTime=2026-04-29",
+      "stock_code": "301376"
+    },
+    {
+      "source": "田琳",
+      "target": "致欧科技",
+      "relation": "持股",
+      "weight": "2.47%",
+      "verified": false,
+      "source_doc": "致欧科技2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=301376&announcementId=1225281007&orgId=9900047632&announcementTime=2026-04-29",
+      "stock_code": "301376"
+    },
+    {
+      "source": "香港中央结算有限公司",
+      "target": "致欧科技",
+      "relation": "持股",
+      "weight": "2.08%",
+      "verified": false,
+      "source_doc": "致欧科技2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=301376&announcementId=1225281007&orgId=9900047632&announcementTime=2026-04-29",
+      "stock_code": "301376"
+    },
+    {
+      "source": "珠海富邦凯瑞管理咨询企业（有限合伙）",
+      "target": "致欧科技",
+      "relation": "持股",
+      "weight": "2.05%",
+      "verified": false,
+      "source_doc": "致欧科技2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=301376&announcementId=1225281007&orgId=9900047632&announcementTime=2026-04-29",
+      "stock_code": "301376"
+    },
+    {
+      "source": "致欧科技",
+      "target": "东莞致欧",
+      "relation": "控股",
+      "weight": "100%",
+      "verified": false,
+      "source_doc": "致欧科技2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=301376&announcementId=1225281007&orgId=9900047632&announcementTime=2026-04-29",
+      "stock_code": "301376"
+    },
+    {
+      "source": "致欧科技",
+      "target": "深圳致欧",
+      "relation": "控股",
+      "weight": "100%",
+      "verified": false,
+      "source_doc": "致欧科技2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=301376&announcementId=1225281007&orgId=9900047632&announcementTime=2026-04-29",
+      "stock_code": "301376"
+    },
+    {
+      "source": "致欧科技",
+      "target": "致欧国际（香港）",
+      "relation": "控股",
+      "weight": "100%",
+      "verified": false,
+      "source_doc": "致欧科技2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=301376&announcementId=1225281007&orgId=9900047632&announcementTime=2026-04-29",
+      "stock_code": "301376"
+    },
+    {
+      "source": "致欧科技",
+      "target": "EUZIEL（德国）",
+      "relation": "控股",
+      "weight": "100%",
+      "verified": false,
+      "source_doc": "致欧科技2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=301376&announcementId=1225281007&orgId=9900047632&announcementTime=2026-04-29",
+      "stock_code": "301376"
+    },
+    {
+      "source": "致欧科技",
+      "target": "AMEZIEL（美国）",
+      "relation": "控股",
+      "weight": "100%",
+      "verified": false,
+      "source_doc": "致欧科技2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=301376&announcementId=1225281007&orgId=9900047632&announcementTime=2026-04-29",
+      "stock_code": "301376"
+    },
+    {
+      "source": "致欧科技",
+      "target": "ZIELJP（日本）",
+      "relation": "控股",
+      "weight": "100%",
+      "verified": false,
+      "source_doc": "致欧科技2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=301376&announcementId=1225281007&orgId=9900047632&announcementTime=2026-04-29",
+      "stock_code": "301376"
+    },
+    {
+      "source": "致欧科技",
+      "target": "FURNOLIC（英国）",
+      "relation": "控股",
+      "weight": "100%",
+      "verified": false,
+      "source_doc": "致欧科技2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=301376&announcementId=1225281007&orgId=9900047632&announcementTime=2026-04-29",
+      "stock_code": "301376"
+    },
+    {
+      "source": "致欧科技",
+      "target": "COWIT（墨西哥）",
+      "relation": "控股",
+      "weight": "100%",
+      "verified": false,
+      "source_doc": "致欧科技2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=301376&announcementId=1225281007&orgId=9900047632&announcementTime=2026-04-29",
+      "stock_code": "301376"
+    },
+    {
+      "source": "致欧科技",
+      "target": "郑州领未",
+      "relation": "控股",
+      "weight": "100%",
+      "verified": false,
+      "source_doc": "致欧科技2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=301376&announcementId=1225281007&orgId=9900047632&announcementTime=2026-04-29",
+      "stock_code": "301376"
+    },
+    {
+      "source": "华凯易佰",
+      "target": "无控股股东",
+      "relation": "控股状态",
+      "weight": "",
+      "verified": false,
+      "source_doc": "华凯易佰关于股东协议转让股份过户完成暨公司控制权发生变更的公告",
+      "source_url": "",
+      "stock_code": "300592"
+    },
+    {
+      "source": "华凯易佰",
+      "target": "无实际控制人",
+      "relation": "实际控制状态",
+      "weight": "",
+      "verified": false,
+      "source_doc": "华凯易佰关于股东协议转让股份过户完成暨公司控制权发生变更的公告",
+      "source_url": "",
+      "stock_code": "300592"
+    },
+    {
+      "source": "胡范金系（胡范金+芒励多+罗春）",
+      "target": "华凯易佰",
+      "relation": "一致行动人",
+      "weight": "20.16%",
+      "verified": true,
+      "source_doc": "华凯易佰2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300592&announcementId=1225175764&orgId=9900030303&announcementTime=2026-04-25",
+      "stock_code": "300592"
+    },
+    {
+      "source": "周新华系（周新华+罗晔）",
+      "target": "华凯易佰",
+      "relation": "一致行动人",
+      "weight": "15.05%",
+      "verified": true,
+      "source_doc": "华凯易佰2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300592&announcementId=1225175764&orgId=9900030303&announcementTime=2026-04-25",
+      "stock_code": "300592"
+    },
+    {
+      "source": "庄俊超系（庄俊超+超然迈伦）",
+      "target": "华凯易佰",
+      "relation": "一致行动人",
+      "weight": "14.94%",
+      "verified": true,
+      "source_doc": "华凯易佰2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300592&announcementId=1225175764&orgId=9900030303&announcementTime=2026-04-25",
+      "stock_code": "300592"
+    },
+    {
+      "source": "华凯易佰",
+      "target": "易佰网络",
+      "relation": "控股",
+      "weight": "",
+      "verified": false,
+      "source_doc": "华凯易佰2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300592&announcementId=1225175764&orgId=9900030303&announcementTime=2026-04-25",
+      "stock_code": "300592"
+    },
+    {
+      "source": "陈文平",
+      "target": "赛维时代",
+      "relation": "实际控制人",
+      "weight": "",
+      "verified": false,
+      "source_doc": "赛维时代2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=301381&announcementId=1225208107&orgId=gfbj0839586&announcementTime=2026-04-28",
+      "stock_code": "301381"
+    },
+    {
+      "source": "陈文辉",
+      "target": "赛维时代",
+      "relation": "一致行动人",
+      "weight": "",
+      "verified": false,
+      "source_doc": "赛维时代2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=301381&announcementId=1225208107&orgId=gfbj0839586&announcementTime=2026-04-28",
+      "stock_code": "301381"
+    },
+    {
+      "source": "雄安君腾创业投资有限公司",
+      "target": "赛维时代",
+      "relation": "控股股东",
+      "weight": "",
+      "verified": false,
+      "source_doc": "赛维时代2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=301381&announcementId=1225208107&orgId=gfbj0839586&announcementTime=2026-04-28",
+      "stock_code": "301381"
+    },
+    {
+      "source": "张清森",
+      "target": "绿联科技",
+      "relation": "实际控制人",
+      "weight": "",
+      "verified": false,
+      "source_doc": "绿联科技2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=301606&announcementId=1225054188&orgId=9900055793&announcementTime=2026-03-31",
+      "stock_code": "301606"
+    },
+    {
+      "source": "张清森",
+      "target": "绿联科技",
+      "relation": "控股股东",
+      "weight": "",
+      "verified": false,
+      "source_doc": "绿联科技2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=301606&announcementId=1225054188&orgId=9900055793&announcementTime=2026-03-31",
+      "stock_code": "301606"
+    },
+    {
+      "source": "仇建平",
+      "target": "巨星科技",
+      "relation": "实际控制人",
+      "weight": "",
+      "verified": true,
+      "source_doc": "巨星科技2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=002444&announcementId=1225224529&orgId=9900013367&announcementTime=2026-04-29",
+      "stock_code": "002444"
+    },
+    {
+      "source": "巨星控股集团有限公司",
+      "target": "巨星科技",
+      "relation": "控股股东",
+      "weight": "38.82%",
+      "verified": true,
+      "source_doc": "巨星科技2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=002444&announcementId=1225224529&orgId=9900013367&announcementTime=2026-04-29",
+      "stock_code": "002444"
+    },
+    {
+      "source": "仇建平",
+      "target": "巨星控股集团有限公司",
+      "relation": "持股",
+      "weight": "85.6%",
+      "verified": true,
+      "source_doc": "巨星科技2025年半年度报告",
+      "source_url": "",
+      "stock_code": "002444"
+    },
+    {
+      "source": "巨星控股集团有限公司",
+      "target": "巨星科技",
+      "relation": "持股",
+      "weight": "38.82%",
+      "verified": false,
+      "source_doc": "巨星科技2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=002444&announcementId=1225224529&orgId=9900013367&announcementTime=2026-04-29",
+      "stock_code": "002444"
+    },
+    {
+      "source": "仇建平",
+      "target": "巨星科技",
+      "relation": "持股",
+      "weight": "3.89%",
+      "verified": false,
+      "source_doc": "巨星科技2025年半年度报告",
+      "source_url": "",
+      "stock_code": "002444"
+    },
+    {
+      "source": "仇建平",
+      "target": "杭叉集团(603298)",
+      "relation": "实际控制人",
+      "weight": "",
+      "verified": false,
+      "source_doc": "巨星科技2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=002444&announcementId=1225224529&orgId=9900013367&announcementTime=2026-04-29",
+      "stock_code": "002444"
+    },
+    {
+      "source": "仇建平",
+      "target": "新柴股份(301032)",
+      "relation": "实际控制人",
+      "weight": "",
+      "verified": false,
+      "source_doc": "巨星科技2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=002444&announcementId=1225224529&orgId=9900013367&announcementTime=2026-04-29",
+      "stock_code": "002444"
+    },
+    {
+      "source": "仇建平",
+      "target": "中策橡胶(603049)",
+      "relation": "实际控制人",
+      "weight": "",
+      "verified": false,
+      "source_doc": "巨星科技2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=002444&announcementId=1225224529&orgId=9900013367&announcementTime=2026-04-29",
+      "stock_code": "002444"
+    },
+    {
+      "source": "刘靖康",
+      "target": "影石创新",
+      "relation": "实际控制人",
+      "weight": "",
+      "verified": false,
+      "source_doc": "影石创新2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=688775&announcementId=1225235141&orgId=9900046494&announcementTime=2026-04-29",
+      "stock_code": "688775"
+    },
+    {
+      "source": "刘靖康",
+      "target": "影石创新",
+      "relation": "控股股东",
+      "weight": "",
+      "verified": false,
+      "source_doc": "影石创新2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=688775&announcementId=1225235141&orgId=9900046494&announcementTime=2026-04-29",
+      "stock_code": "688775"
+    },
+    {
+      "source": "项乐宏",
+      "target": "乐歌股份",
+      "relation": "共同实际控制人",
+      "weight": "",
+      "verified": false,
+      "source_doc": "乐歌股份2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300729&announcementId=1225185217&orgId=9900034350&announcementTime=2026-04-27",
+      "stock_code": "300729"
+    },
+    {
+      "source": "姜艺",
+      "target": "乐歌股份",
+      "relation": "共同实际控制人",
+      "weight": "",
+      "verified": false,
+      "source_doc": "乐歌股份2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300729&announcementId=1225185217&orgId=9900034350&announcementTime=2026-04-27",
+      "stock_code": "300729"
+    },
+    {
+      "source": "宁波丽晶电子集团有限公司",
+      "target": "乐歌股份",
+      "relation": "控股股东",
+      "weight": "",
+      "verified": false,
+      "source_doc": "乐歌股份2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300729&announcementId=1225185217&orgId=9900034350&announcementTime=2026-04-27",
+      "stock_code": "300729"
+    },
+    {
+      "source": "项乐宏",
+      "target": "宁波丽晶电子集团有限公司",
+      "relation": "法定代表人",
+      "weight": "",
+      "verified": false,
+      "source_doc": "乐歌股份2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300729&announcementId=1225185217&orgId=9900034350&announcementTime=2026-04-27",
+      "stock_code": "300729"
+    },
+    {
+      "source": "ZHONGBINSUN",
+      "target": "三态股份",
+      "relation": "实际控制人",
+      "weight": "",
+      "verified": false,
+      "source_doc": "三态股份2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=301558&announcementId=1225242582&orgId=gfbj0430754&announcementTime=2026-04-29",
+      "stock_code": "301558"
+    },
+    {
+      "source": "深圳市嘉禾晟鑫科技有限公司",
+      "target": "三态股份",
+      "relation": "控股股东",
+      "weight": "",
+      "verified": false,
+      "source_doc": "三态股份2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=301558&announcementId=1225242582&orgId=gfbj0430754&announcementTime=2026-04-29",
+      "stock_code": "301558"
+    },
+    {
+      "source": "ZHONGBINSUN",
+      "target": "深圳市嘉禾晟鑫科技有限公司",
+      "relation": "法定代表人",
+      "weight": "",
+      "verified": false,
+      "source_doc": "三态股份2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=301558&announcementId=1225242582&orgId=gfbj0430754&announcementTime=2026-04-29",
+      "stock_code": "301558"
+    },
+    {
+      "source": "谢晓华",
+      "target": "星徽股份",
+      "relation": "实际控制人",
+      "weight": "",
+      "verified": false,
+      "source_doc": "星徽股份2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300464&announcementId=1225214049&orgId=9900023815&announcementTime=2026-04-28",
+      "stock_code": "300464"
+    },
+    {
+      "source": "谢晓华",
+      "target": "星徽股份",
+      "relation": "控股股东",
+      "weight": "",
+      "verified": false,
+      "source_doc": "星徽股份2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300464&announcementId=1225214049&orgId=9900023815&announcementTime=2026-04-28",
+      "stock_code": "300464"
+    },
+    {
+      "source": "孙才金",
+      "target": "星徽股份",
+      "relation": "一致行动人",
+      "weight": "",
+      "verified": false,
+      "source_doc": "星徽股份2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300464&announcementId=1225214049&orgId=9900023815&announcementTime=2026-04-28",
+      "stock_code": "300464"
+    },
+    {
+      "source": "朱佳佳",
+      "target": "星徽股份",
+      "relation": "一致行动人",
+      "weight": "",
+      "verified": false,
+      "source_doc": "星徽股份2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300464&announcementId=1225214049&orgId=9900023815&announcementTime=2026-04-28",
+      "stock_code": "300464"
+    },
+    {
+      "source": "SUNVALLEY E-COMMERCE (HK) LIMITED",
+      "target": "星徽股份",
+      "relation": "持股",
+      "weight": "",
+      "verified": false,
+      "source_doc": "星徽股份2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300464&announcementId=1225214049&orgId=9900023815&announcementTime=2026-04-28",
+      "stock_code": "300464"
+    },
+    {
+      "source": "新余市顺择齐欣咨询服务中心（有限合伙）",
+      "target": "星徽股份",
+      "relation": "持股",
+      "weight": "",
+      "verified": false,
+      "source_doc": "星徽股份2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300464&announcementId=1225214049&orgId=9900023815&announcementTime=2026-04-28",
+      "stock_code": "300464"
+    },
+    {
+      "source": "王利平",
+      "target": "广博股份",
+      "relation": "实际控制人",
+      "weight": "29.68%",
+      "verified": false,
+      "source_doc": "广博股份2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=002103&announcementId=1225092039&orgId=9900001821&announcementTime=2026-04-11",
+      "stock_code": "002103"
+    },
+    {
+      "source": "王利平",
+      "target": "广博股份",
+      "relation": "控股股东",
+      "weight": "23.02%",
+      "verified": false,
+      "source_doc": "广博股份2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=002103&announcementId=1225092039&orgId=9900001821&announcementTime=2026-04-11",
+      "stock_code": "002103"
+    },
+    {
+      "source": "广博控股集团有限公司",
+      "target": "广博股份",
+      "relation": "持股",
+      "weight": "6.66%",
+      "verified": false,
+      "source_doc": "广博股份2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=002103&announcementId=1225092039&orgId=9900001821&announcementTime=2026-04-11",
+      "stock_code": "002103"
+    },
+    {
+      "source": "王利平",
+      "target": "广博控股集团有限公司",
+      "relation": "控制",
+      "weight": "",
+      "verified": false,
+      "source_doc": "广博股份2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=002103&announcementId=1225092039&orgId=9900001821&announcementTime=2026-04-11",
+      "stock_code": "002103"
+    },
+    {
+      "source": "王君平",
+      "target": "广博股份",
+      "relation": "持股",
+      "weight": "",
+      "verified": false,
+      "source_doc": "广博股份2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=002103&announcementId=1225092039&orgId=9900001821&announcementTime=2026-04-11",
+      "stock_code": "002103"
+    },
+    {
+      "source": "宁波兆晖泰商贸有限公司",
+      "target": "广博股份",
+      "relation": "持股",
+      "weight": "",
+      "verified": false,
+      "source_doc": "广博股份2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=002103&announcementId=1225092039&orgId=9900001821&announcementTime=2026-04-11",
+      "stock_code": "002103"
+    },
+    {
+      "source": "王利平",
+      "target": "博迁新材(605376)",
+      "relation": "实际控制人",
+      "weight": "26.59%",
+      "verified": false,
+      "source_doc": "广博股份2025年年度报告",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=002103&announcementId=1225092039&orgId=9900001821&announcementTime=2026-04-11",
+      "stock_code": "002103"
+    },
+    {
+      "source": "华丙如",
+      "target": "子不语",
+      "relation": "实际控制人",
+      "weight": "",
+      "verified": false,
+      "source_doc": "子不语2025年报",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=02420&announcementId=1225095601&orgId=9900057074&announcementTime=2026-04-10",
+      "stock_code": "02420"
+    },
+    {
+      "source": "华丙如",
+      "target": "子不语",
+      "relation": "控股股东",
+      "weight": "",
+      "verified": false,
+      "source_doc": "子不语2025年报",
+      "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=02420&announcementId=1225095601&orgId=9900057074&announcementTime=2026-04-10",
+      "stock_code": "02420"
+    }
+  ]
+}

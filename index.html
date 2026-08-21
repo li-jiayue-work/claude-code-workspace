@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>跨境电商股权关系图谱</title>
+<style>
+:root {
+  --bg: #f8fafc; --surface: #fff; --border: #e8ecf1;
+  --text: #1a202c; --text2: #4a5568; --text3: #a0aec0;
+  --blue950: #0f2340; --blue800: #1e4a7a; --blue600: #3b82f6; --blue400: #7ba5c9; --blue200: #c5d9ed;
+  --amber700: #b45309; --amber500: #f59e0b;
+  --green700: #0d9488;
+  --red500: #ef4444;
+  --font: -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+  --ease: cubic-bezier(.4,0,.2,1);
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font);background:var(--bg);color:var(--text);display:flex;flex-direction:column;height:100vh;overflow:hidden;-webkit-font-smoothing:antialiased}
+
+/* ── Top bar (minimal) ── */
+#bar{display:flex;align-items:center;gap:10px;padding:8px 16px;background:var(--surface);border-bottom:1px solid var(--border);flex-shrink:0;z-index:20}
+#bar h1{font-size:14px;font-weight:700;color:var(--blue950);letter-spacing:-.01em;white-space:nowrap}
+#bar .sp{width:1px;height:20px;background:var(--border)}
+#bar input,#bar select{font-family:var(--font);font-size:12px;padding:5px 10px;border:1px solid var(--border);border-radius:6px;background:var(--surface);color:var(--text);outline:none;transition:border-color .15s var(--ease)}
+#bar input:focus,#bar select:focus{border-color:var(--blue400);box-shadow:0 0 0 3px rgba(59,130,246,.1)}
+#bar input{width:200px}
+#bar select{max-width:140px}
+#bar button{font-family:var(--font);font-size:12px;padding:5px 10px;border:1px solid var(--border);border-radius:6px;background:var(--surface);cursor:pointer;color:var(--text2);transition:all .15s var(--ease);display:flex;align-items:center;gap:4px}
+#bar button:hover{background:#f1f5f9;border-color:#cbd5e1}
+#bar .stats{display:flex;gap:12px;margin-left:auto;font-size:11px;color:var(--text3)}
+#bar .stats strong{color:var(--text2);font-weight:600}
+
+/* ── Main ── */
+main{display:flex;flex:1;overflow:hidden;position:relative}
+#graph{flex:1;position:relative}
+#graph svg{width:100%;height:100%}
+#graph canvas{position:absolute;top:0;left:0;pointer-events:none}
+
+/* Legend: bottom-left, minimal */
+#legend{position:absolute;bottom:14px;left:14px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:10px 14px;font-size:11px;box-shadow:0 1px 4px rgba(0,0,0,.04);z-index:10}
+#legend .lg-row{display:flex;align-items:center;gap:8px;margin-bottom:3px}
+#legend .lg-row:last-child{margin-bottom:0}
+#legend .lg-dot{width:9px;height:9px;border-radius:50%;flex-shrink:0}
+#legend .lg-dot.inst{width:12px;height:7px;border-radius:3px}
+#legend .lg-line{width:16px;height:0;flex-shrink:0}
+#legend .lg-label{color:var(--text2)}
+
+/* Tooltip */
+#tooltip{position:absolute;pointer-events:none;opacity:0;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:8px 12px;font-size:12px;box-shadow:0 4px 16px rgba(0,0,0,.08);z-index:100;max-width:260px;transition:opacity .1s var(--ease)}
+#tooltip .tt-title{font-weight:600;font-size:13px;color:var(--blue950);margin-bottom:2px}
+#tooltip .tt-meta{font-size:11px;color:var(--text3)}
+#tooltip .tt-sector{font-size:10px;color:var(--blue600);margin-top:3px;padding-top:3px;border-top:1px solid var(--border)}
+
+/* ── Detail panel (right) ── */
+#panel{width:360px;background:var(--surface);border-left:1px solid var(--border);overflow-y:auto;flex-shrink:0;z-index:15;transition:transform .2s var(--ease),opacity .2s var(--ease)}
+#panel.hidden{transform:translateX(100%);width:0;padding:0;opacity:0;overflow:hidden}
+#panel-header{padding:16px 18px 12px;border-bottom:1px solid var(--border);position:sticky;top:0;background:var(--surface);z-index:2;display:flex;justify-content:space-between;align-items:flex-start}
+#panel-header h3{font-size:15px;font-weight:700;color:var(--blue950)}
+#panel-header .ph-meta{font-size:11px;color:var(--text3);margin-top:2px}
+#panel-close{background:none;border:none;cursor:pointer;font-size:18px;color:var(--text3);padding:2px 6px;line-height:1;border-radius:4px}
+#panel-close:hover{background:#f1f5f9;color:var(--text)}
+#panel-body{padding:10px 18px 20px}
+
+/* Relation card */
+.pcard{padding:10px 12px;border:1px solid var(--border);border-radius:8px;margin-bottom:6px;transition:border-color .15s var(--ease)}
+.pcard:hover{border-color:var(--blue400)}
+.pcard .pc-icon{width:28px;height:28px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;color:#fff;margin-right:10px}
+.pc-icon.ctrl{background:var(--blue800)}
+.pc-icon.hold{background:var(--blue600)}
+.pc-icon.concert{background:var(--amber700)}
+.pc-icon.other{background:#94a3b8}
+.pcard .pc-row{display:flex;align-items:center;margin-bottom:4px}
+.pcard .pc-name{font-weight:600;font-size:12px;color:var(--text)}
+.pcard .pc-arrow{color:var(--text3);margin:0 6px;font-size:12px}
+.pcard .pc-weight{font-weight:700;color:var(--blue800);font-size:13px;margin-left:auto}
+.pcard .pc-foot{display:flex;justify-content:space-between;align-items:center;font-size:11px}
+.pcard .pc-rel{color:var(--text3)}
+.pcard .pc-badge{padding:1px 7px;border-radius:10px;font-size:10px;font-weight:600}
+.pc-badge.ok{background:#d1fae5;color:#065f46}
+.pc-badge.pend{background:#fef3c7;color:#92400e}
+.pcard .pc-src{color:var(--blue600);text-decoration:none;font-weight:500;font-size:11px}
+.pcard .pc-src:hover{text-decoration:underline}
+.psec-title{font-size:10px;font-weight:700;color:var(--text3);text-transform:uppercase;letter-spacing:.06em;margin:12px 0 4px;padding-bottom:4px;border-bottom:1px solid var(--border)}
+.psec-title:first-child{margin-top:0}
+
+#panel-empty{text-align:center;padding:60px 20px;color:var(--text3);font-size:13px}
+
+/* Company overview card */
+.co-card{padding:12px 14px;margin-bottom:12px;background:linear-gradient(135deg,#f0f5ff 0%,#f8fafc 100%);border:1px solid var(--blue200);border-radius:10px}
+.co-card-head{display:flex;align-items:center;gap:6px;margin-bottom:8px;flex-wrap:wrap}
+.co-card-badge{padding:2px 8px;border-radius:4px;font-size:10px;font-weight:600;background:var(--blue800);color:#fff}
+.co-badge-sector{background:var(--blue600)}
+.co-card-code{font-size:11px;color:var(--text3);font-family:monospace}
+.co-card-business{font-size:12px;color:var(--text2);line-height:1.5;margin-bottom:6px}
+.co-card-highlight{font-size:11px;color:var(--blue800);line-height:1.4;padding:6px 8px;background:rgba(59,130,246,.06);border-radius:6px;border-left:3px solid var(--blue400)}
+
+/* ── Narrative mode overlay ── */
+#narrative{position:absolute;bottom:80px;left:50%;transform:translateX(-50%);background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px 20px;box-shadow:0 4px 24px rgba(0,0,0,.1);z-index:50;display:flex;align-items:center;gap:14px;font-size:13px;max-width:560px;transition:opacity .3s var(--ease),transform .3s var(--ease)}
+#narrative.hidden{opacity:0;pointer-events:none;transform:translateX(-50%) translateY(10px)}
+#narrative .nr-avatar{width:36px;height:36px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:16px;color:#fff;font-weight:700}
+#narrative .nr-text{flex:1;line-height:1.5}
+#narrative .nr-text strong{color:var(--blue950)}
+#narrative .nr-step{font-size:10px;color:var(--text3);margin-bottom:2px}
+#narrative .nr-actions{display:flex;gap:8px;flex-shrink:0}
+#narrative button{font-family:var(--font);font-size:12px;padding:5px 12px;border-radius:6px;cursor:pointer;border:1px solid var(--border);background:var(--surface);color:var(--text2);transition:all .15s var(--ease)}
+#narrative button:hover{background:#f1f5f9}
+#narrative button.nr-primary{background:var(--blue800);color:#fff;border-color:var(--blue800)}
+#narrative button.nr-primary:hover{background:var(--blue950)}
+#narrative button.nr-exit{color:var(--text3);font-size:11px;border:none;background:none;padding:4px 8px}
+#narrative .nr-progress{display:flex;gap:3px}
+#narrative .nr-dot{width:6px;height:6px;border-radius:50%;background:var(--border)}
+#narrative .nr-dot.active{background:var(--blue600)}
+</style>
+</head>
+<body>
+
+<div id="bar">
+  <h1>股权关系图谱</h1><span class="sp"></span>
+  <input id="search" placeholder="搜索节点…" />
+  <select id="relFilter"><option value="">全部关系</option><option value="control">控制关系</option><option value="holding">持股关系</option><option value="subsidiary">子公司</option></select>
+  <select id="verFilter"><option value="">全部状态</option><option value="true">已核实</option><option value="false">待核实</option></select>
+  <select id="compFilter"><option value="">全部公司</option></select>
+  <span class="sp"></span>
+  <button id="btnFit">适应屏幕</button>
+  <button id="btnReset">重置</button>
+  <span class="stats">节点&nbsp;<strong id="sn">83</strong>&nbsp; 关系&nbsp;<strong id="se">88</strong>&nbsp; 已核实&nbsp;<strong id="sv">0</strong></span>
+</div>
+
+<main>
+  <div id="graph"><svg></svg><div id="tooltip"></div>
+    <div id="legend">
+      <div class="lg-row"><span class="lg-dot" style="background:#0f2340"></span><span class="lg-label">上市公司</span></div>
+      <div class="lg-row"><span class="lg-dot" style="background:#3b82f6"></span><span class="lg-label">自然人</span></div>
+      <div class="lg-row"><span class="lg-dot inst" style="background:#7ba5c9;width:12px;height:7px;border-radius:3px"></span><span class="lg-label">机构股东</span></div>
+      <div class="lg-row"><span class="lg-dot" style="background:#94a3b8"></span><span class="lg-label">子公司/其他</span></div>
+      <div class="lg-row"><span class="lg-line" style="border-top:2.5px solid #1a365d"></span><span class="lg-label">控制</span></div>
+      <div class="lg-row"><span class="lg-line" style="border-top:1.5px solid #7ba5c9"></span><span class="lg-label">持股</span></div>
+      <div class="lg-row"><span class="lg-line" style="border-top:1.5px dashed #d97706"></span><span class="lg-label">一致行动</span></div>
+      <div class="lg-row"><span class="lg-line" style="border-top:1.5px dashed #ef4444"></span><span class="lg-label">待核实</span></div>
+    </div>
+    <!-- Narrative mode -->
+    <div id="narrative" class="hidden">
+      <div class="nr-avatar" id="nr-avatar"></div>
+      <div class="nr-text">
+        <div class="nr-step" id="nr-step"></div>
+        <span id="nr-msg"></span>
+      </div>
+      <div class="nr-progress" id="nr-progress"></div>
+      <div class="nr-actions">
+        <button id="nr-prev" style="display:none">上一步</button>
+        <button id="nr-next" class="nr-primary">下一步</button>
+        <button id="nr-exit" class="nr-exit">退出讲解</button>
+      </div>
+    </div>
+  </div>
+  <div id="panel" class="hidden">
+    <div id="panel-header"><div><h3 id="ptitle"></h3><div class="ph-meta" id="pmeta"></div></div><button id="panel-close" title="关闭">×</button></div>
+    <div id="panel-body"></div>
+  </div>
+</main>
+
+<!-- Dependencies: load order matters -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<!-- Lifecycle: must load first — all modules gate on it -->
+<script src="js/core/lifecycle.js"></script>
+<!-- Foundation -->
+<script src="js/theme.js"></script>
+<script src="js/utils/relations.js"></script>
+<script src="js/state.js"></script>
+<!-- Data -->
+<script src="js/model/data.js"></script>
+<!-- Layout -->
+<script src="js/layout/force.js"></script>
+<script src="js/layout/packing.js"></script>
+<!-- Renderers -->
+<script src="js/render/nodes.js"></script>
+<script src="js/render/edges.js"></script>
+<script src="js/render/ui.js"></script>
+<!-- Interactions -->
+<script src="js/interaction/hover.js"></script>
+<script src="js/interaction/select.js"></script>
+<script src="js/interaction/camera.js"></script>
+<script src="js/interaction/filters.js"></script>
+<!-- UI features -->
+<script src="js/ui/narrative.js"></script>
+<script src="js/ui/controls.js"></script>
+<!-- Orchestrator -->
+<script src="js/app.js"></script>
+</body>
+</html>
